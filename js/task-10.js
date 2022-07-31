@@ -32,9 +32,9 @@ function onDestroyBtnClick() {
   inputNumberOfBoxes.value = "" 
 }
 
-function createBoxesRow(number) {
+function createBoxes(amount) {
   const boxes = [];
-  for (let i = 0; i < number; i += 1) {
+  for (let i = 0; i < amount; i += 1) {
     const boxSize = 30 + 10 * i;
     const boxColor = getRandomHexColor();
     const newBox =
