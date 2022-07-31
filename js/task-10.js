@@ -24,7 +24,7 @@ function onCreateBtnClick() {
     return alert(`количество не должно превышать ${max}`);
   }
 
-  boxesEl.innerHTML = createBoxesRow(numberOfBoxes).join(''); 
+  boxesEl.innerHTML = createBoxes(numberOfBoxes).join(''); 
 }
 
 function onDestroyBtnClick() {
